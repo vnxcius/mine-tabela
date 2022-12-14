@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>luv</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Tabela de Construções</h1>
+
+    <hr>
+
+    <table cellspacing="0" id="table">
+      <tr>
+        <th class="title left">Construções</th>
+        <th class="title">Em Progresso</th>
+        <th class="title">Finalizado</th>
+        <th class="title right">Descrição</th>
+      </tr>
+
+      <tr>
+        <td class="left">Casa do Zé</td>
+        <td><ion-icon name="checkmark" class="icon"></ion-icon></td>
+        <td><ion-icon name="checkmark" class="icon"></ion-icon></td>
+        <td class="description right"><ion-icon name="remove" class="icon"></ion-icon></td>
+      </tr>
+      
+      <tr>
+        <td class="left">Nossa Casa</td>
+        <td><ion-icon name="checkmark" class="icon"></ion-icon></td>
+        <td><ion-icon name="checkmark" class="icon"></ion-icon></td>
+        <td class="description right"><ion-icon name="remove" class="icon"></ion-icon></td>
+      </tr>
+
+      <tr>
+        <td class="left">Vila Rústica</td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description right" data-description>
+          Uma vila cercada de um muro com base de pedra e paredes de madeira. As casas da vila serão demarcadas com os caminhos
+          de pá e as estradas também mas com outros blocos de detalhe como terra grossa, pedregulho e etc. Alguns villagers vão ter
+          casas específicas do seus empregos. Um fonte no centro da cidade, aka praça central.
+        </td>
+      </tr>
+
+      <tr>
+        <td class="left">Doca</td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description right" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+      </tr>
+
+      <tr>
+        <td class="left">Farm de Couro</td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description right" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+      </tr>
+
+      <tr>
+        <td class="left">Farol</td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description right" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+      </tr>
+
+      <tr>
+        <td class="left">Mob farm</td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description right" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+      </tr>
+      
+    </table>
+    
+
+    
+  </div>
+
+  <script>
+    let desc = document.querySelector("[data-description]")
+
+    desc.addEventListener("click", function(){
+      this.classList.toggle("active");
+    })
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
