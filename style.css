@@ -119,6 +119,22 @@ p{
   text-align: right;
   
   font-family: 'Open Sans';
-  /* text-indent: 10px; */
   
+}
+
+@media screen and (max-width: 468px){
+
+  #table {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1140px){
+
+  #table {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+  }
 }
