@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+a{
+  text-decoration: none;
+  color: #fffbfb;
+}
+
 
 body{
   background-color: #151515;
@@ -16,7 +21,6 @@ body{
 
 .container{
   padding-top: 100px;
-  margin-bottom: 75vh;
 }
 
 h1{
@@ -30,7 +34,7 @@ h1{
 hr{
   border: none;
   height: 1px;
-  background-color: #fff;
+  background-color: #252525;
   margin-bottom: 2em;
 }
 
@@ -74,6 +78,18 @@ ion-icon[name=checkmark]{
   color: #25db00;
 }
 
+ion-icon[name=remove]{
+  color: #faebd7;
+}
+
+ion-icon[name=link]{
+  font-size: 19px;
+}
+
+ion-icon[name=link]:hover{
+  color: #faebd7;
+}
+
 .description{
   max-width: 15em;
   text-align: justify;
@@ -89,6 +105,13 @@ ion-icon[name=checkmark]{
   transition:  1s ease-in-out;
 }
 
+td span{
+  display: none;
+}
+
+.link{
+  text-align: center;
+}
 
 
 p{

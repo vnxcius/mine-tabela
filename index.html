@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>luv</title>
+  <title>Construções Minecraft - Tabela</title>
 
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,31 +24,47 @@
         <th class="title left">Construções</th>
         <th class="title">Em Progresso</th>
         <th class="title">Finalizado</th>
-        <th class="title right">Descrição</th>
+        <th class="title">Descrição</th>
+        <th class="title link right">Link</th>
       </tr>
 
       <tr>
         <td class="left">Casa do Zé</td>
         <td><ion-icon name="checkmark" class="icon"></ion-icon></td>
         <td><ion-icon name="checkmark" class="icon"></ion-icon></td>
-        <td class="description right"><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description"><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="right link">
+          <a href="https://www.youtube.com/watch?v=yXHunS-ZIvA" target="_blank">        
+            <ion-icon name="link"></ion-icon>
+          </a>
+        </td>
       </tr>
       
       <tr>
         <td class="left">Nossa Casa</td>
         <td><ion-icon name="checkmark" class="icon"></ion-icon></td>
         <td><ion-icon name="checkmark" class="icon"></ion-icon></td>
-        <td class="description right"><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description"><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="right link">
+          <a href="https://www.youtube.com/watch?v=0jZiEe6xKHY" target="_blank">        
+            <ion-icon name="link"></ion-icon>
+          </a>
+        </td>
       </tr>
 
       <tr>
         <td class="left">Vila Rústica</td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
-        <td class="description right" data-description>
+        <td class="description" data-description>
           Uma vila cercada de um muro com base de pedra e paredes de madeira. As casas da vila serão demarcadas com os caminhos
           de pá e as estradas também mas com outros blocos de detalhe como terra grossa, pedregulho e etc. Alguns villagers vão ter
           casas específicas do seus empregos. Um fonte no centro da cidade, aka praça central.
+        </td>
+        <td class="right link">
+          <a href="#" target="_blank">        
+            <ion-icon name="link"></ion-icon>
+          </a>
         </td>
       </tr>
 
@@ -56,28 +72,48 @@
         <td class="left">Doca</td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
-        <td class="description right" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="right link">
+          <a href="#" target="_blank">        
+            <ion-icon name="link"></ion-icon>
+          </a>
+        </td>
       </tr>
 
       <tr>
         <td class="left">Farm de Couro</td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
-        <td class="description right" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="right link">
+          <a href="https://www.youtube.com/watch?v=HJg3EDEIdwc&ab_channel=Willzy" target="_blank">        
+            <ion-icon name="link"></ion-icon>
+          </a>
+        </td>
       </tr>
 
       <tr>
         <td class="left">Farol</td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
-        <td class="description right" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="right link">
+          <a href="#" target="_blank">        
+            <ion-icon name="link"></ion-icon>
+          </a>
+        </td>
       </tr>
 
       <tr>
         <td class="left">Mob farm</td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
         <td><ion-icon name="remove" class="icon"></ion-icon></td>
-        <td class="description right" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="description" data-description><ion-icon name="remove" class="icon"></ion-icon></td>
+        <td class="right link">
+          <a href="#" target="_blank">        
+            <ion-icon name="link"></ion-icon>
+          </a>
+        </td>
       </tr>
       
     </table>
@@ -86,13 +122,7 @@
     
   </div>
 
-  <script>
-    let desc = document.querySelector("[data-description]")
-
-    desc.addEventListener("click", function(){
-      this.classList.toggle("active");
-    })
-  </script>
+  <script src="./script.js"></script>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
